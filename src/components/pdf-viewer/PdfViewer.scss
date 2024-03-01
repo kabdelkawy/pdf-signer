@@ -1,0 +1,25 @@
+.viewer-control-wrapper {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: gray;
+  color: white;
+  font-size: 22px;
+}
+
+.viewer-control-wrapper button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.viewer-control-wrapper button:hover {
+  color: black;
+}
+
+.canvas-wrapper {
+  width: min-content;
+  margin: 0 auto;
+}
